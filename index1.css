@@ -1,5 +1,29 @@
 h3{
     text-align: center;
-    color: blue;
-    
+    color: darkblue;
+    border: 3px, lightgray;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:15%;
+}
+th{
+    background-color: lightcyan;
+    text-emphasis: bold;
+}
+th,td{
+    font: Arial, Sans-Serif;
+    text-align:center;
+    border: 2px solid black;
+    padding:5px;
+}
+table{
+    border:2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
