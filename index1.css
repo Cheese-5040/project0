@@ -20,10 +20,16 @@ th,td{
     padding:5px;
 }
 table{
+    margin-top: 20px;
     border:2px solid black;
     border-collapse: collapse;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 
+}
+.hyperlink{
+    font-size:20px;
+    color:red;
+    font-style: normal;
 }

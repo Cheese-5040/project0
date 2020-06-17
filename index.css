@@ -6,6 +6,15 @@ h1{
     text-align: center;
     color: brown;
 }
+#top{
+    font-style: italic;
+   
+}
+.hyperlink{
+    font-size:20px;
+    color:red;
+    font-style: normal;
+}
 table{
     /* selecting the border outlines of the big table  */
     border: 2px solid black;   
