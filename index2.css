@@ -1,0 +1,45 @@
+h3{
+    text-align: center;
+}
+.row > div{
+    padding: 20px;
+    background-color: rgb(87, 236, 216);
+    border: 2px solid black;
+    font-weight: bold;
+}
+.col-4{
+
+    align-items:center;
+}
+ul,ol{
+    font-weight: normal;
+    font-size: 15px;
+}
+body{
+    font-size:17px;
+}
+.hyperlink{
+    font-size:20px;
+    color:red;
+    font-style: normal;
+}
+th{
+    background-color: lightcyan;
+    text-emphasis: bold;
+}
+th,td{
+    font: Arial, Sans-Serif;
+    text-align:center;
+    border: 2px solid black;
+    padding:5px;
+   
+}
+table{
+    margin-top: 20px;
+    border:2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
