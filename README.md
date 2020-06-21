@@ -1,5 +1,16 @@
 # Project 0
 
 Web Programming with Python and JavaScript
+<!-- write up for the pages that i made -->
+I created four webpages with links to navigate between each other using skills learnt in the course. 
 
-displpay my current projects i am working on 
+index0:
+
+
+index1:
+
+
+index2:
+
+
+index3:
