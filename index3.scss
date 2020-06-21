@@ -1,0 +1,72 @@
+$color: Red;
+%message {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+h3{
+    @extend %message;
+    font-size: 20px;
+    text-align:center;
+    color: $color;
+
+}
+div{
+    @extend %message;
+    text-align: center;
+
+    display: table;
+    margin:0 auto;
+    p{
+        color:orange;
+    }
+    ul{
+        color:maroon;   
+        text-align: center;
+    }
+}   
+@media (min-width: 900px) {
+    body{
+        color:navy ;
+    }
+    h2::before {
+        content: "My contact information displayed as per below:";
+    }
+}
+
+@media (max-width: 899px) {
+    h2::before {
+        content: "My contact infromation are:";
+    }
+    body{
+        color:green;
+    }
+}
+.hyperlink{
+    font-size:20px;
+    color:red;
+    font-style: normal;
+}
+th{
+    background-color: lightcyan;
+    text-emphasis: bold;
+}
+th,td{
+    font: Arial, Sans-Serif;
+    text-align:center;
+    border: 2px solid black;
+    padding:5px;
+   
+}
+table{
+    margin-top: 20px;
+    border:2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
