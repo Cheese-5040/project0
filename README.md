@@ -5,7 +5,7 @@ Web Programming with Python and JavaScript
 I created four webpages with links to navigate between each other using skills learnt in the course. 
 
 index0:
-website babibabi    babi
+website main page with my basic description and buttons to navigate
 
 index1:
 
